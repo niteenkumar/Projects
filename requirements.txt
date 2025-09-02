@@ -10,3 +10,4 @@ seaborn
 scipy
 requests
 ultralytics
+psutil
