@@ -32,8 +32,8 @@ def load_model():
 
 model, device = load_model()
 
-st.title("🛄 Airport Security Object Detection")
-st.caption("Upload an x-ray image of a bag. The system will detect prohibited items like guns, knives, etc.")
+st.title(" Airport Security Object Detection")
+st.caption("Upload an x-ray image of a bag. The system will detect prohibited items like guns, knives, wrench, pliers  & scissor")
 
 uploaded_file = st.file_uploader("Upload an Image", type=['jpg', 'jpeg', 'png'])
 
